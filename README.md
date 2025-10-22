@@ -6,11 +6,11 @@ This repo contains the starter code to build a poker bot for our [poker bot tour
 To ensure smooth gameplay and fair evaluation, all teams must follow the submission guidelines outlined below. Any submissions not adhering to these rules may be disqualified.
 
 ## Important
-- Please submit your code before **11:59 PM on November 6, 2025**, no late submission will not be accepted.
+- Please submit your code before **11:59 PM on November 6, 2025**, late submissions will not be accepted.
 - Submission must be made on [your dashboard](https://acm-poker-tournament.vercel.app/dashboard), and all of your code must be in one file.
-- Bots are called only during their own turn; they should not rely on global state or other bots’ internals. Keep this in mind when coding up your bot.
+- Bots are called only during their own turn; they should not rely on global state or other bots' internals. Keep this in mind when coding up your bot.
 - Illegal moves will be automatically treated as folding. For example, checking when a raise is required or betting less than the required minimum.
-- Your bot will be have a runtime limit of 5s each time its run.
+- Your bot will have a runtime limit of 5s each time it's run.
 - Additional helper functions/classes are allowed as long as they don’t interfere with the interface.
 
 
@@ -22,7 +22,7 @@ To ensure smooth gameplay and fair evaluation, all teams must follow the submiss
 ## Input Format
 - Your bot will receive the current game state (using the template schemas provided) and is expected to return a single valid poker action on its turn.
 
-Every turn your poker bot will be invoke through system call and receives `state` as the input with the `GameState` type. The definition of `GameState` can be found below and inside `bot.py`.
+Every turn, your poker bot will be invoked through a system call and receive `state` as the input with the `GameState` type. The definition of `GameState` can be found below and inside `bot.py`.
 ```python
 # cards are defined as a 2 character string [value][suite]
 # where 1st char: a(2-9)tjqk, 2nd char: s d c h
@@ -66,7 +66,7 @@ Example Interpretation:
 
 ## Code Specification & Libraries
 - Only Python 3.11 is allowed.
-- We only allow some standard python libraries (support for mainstream external libraries will come next time)
+- We only allow some standard Python libraries (support for mainstream external libraries will come next time)
 - List of black listed standard libraries can be found [here](https://docs.google.com/document/d/1Q78tdVFAZIFt0ZWEgNG65nDDAlbt6rcG5o21waeZprA/edit?usp=sharing).
 
 
@@ -89,7 +89,7 @@ Example Interpretation:
 ## Additional Things to Note
 - If you have special requests (e.g., library whitelisting, accommodations), contact us through Discord before the submission deadline.
 - All submissions will undergo code reviews to ensure fairness and runtime safety. Non-compliant bots will be disqualified.
-- ACM.Dev reserve the rights to disqualify participant at our discretion.
+- ACM.Dev reserve the rights to disqualify participants at our discretion.
 
 
 ## Contact & Support
