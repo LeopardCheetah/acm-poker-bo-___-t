@@ -1,4 +1,6 @@
 # <DO NOT MODIFY>
+from helpers import *
+
 class Pot:
     value: int
     players: list[str]
@@ -21,6 +23,7 @@ class GameState:
 """ Store any persistent data for your bot in this class """
 class Memory:
     pass
+
 
 """ Make a betting decision for the current turn.
 
