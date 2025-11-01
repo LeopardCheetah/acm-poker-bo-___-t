@@ -58,10 +58,10 @@ Example `GameState`:
     "big_blind": 10
 }
 ```
-Example Interpretation:
+Interpreting the example:
 - Betting round after the flop.
-- Player 0 (`team_id0`) bet `20`, Player 1 folded, action is on Player 2.
-- Player 2 has trips with 2s and 7s.
+- Player 0 (`team_id0`) bet `20`, Player 1 (`team_id1`) folded, action is on Player 2 (`team_id2`).
+- You have triples with 2 spade (`2s`), 2 hearts (`2h`), and 2 diamonds (`2d`).
 
 
 ## Code Specification & Libraries
