@@ -44,18 +44,5 @@ class Memory:
 """
 
 def bet(state: GameState, memory: Memory | None=None) -> tuple[int, Memory | None]:
-    if memory is None:
-        memory = Memory()
-        
-    if(get_round_name(state) == "Pre-Flop"):
-        return call(state), memory
-    
-    # get_best_hand_from(...) returns a tuple (rank, best_hand)
-    # unpack once and use the numeric rank for comparisons to avoid TypeError
-    best_rank, _ = get_best_hand_from(state.player_cards, state.community_cards)
-    if best_rank > 0:
-        return min_raise(state), memory
-    elif best_rank == 0:
-        return fold(), memory
-    
-    return check(), memory
+    bet_amount = 0
+    return (bet_amount, memory)
