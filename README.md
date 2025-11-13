@@ -6,7 +6,7 @@ This repo contains the starter code to build a poker bot for our [poker bot tour
 To ensure smooth gameplay and fair evaluation, all teams must follow the submission guidelines outlined below. Any submissions not adhering to these rules may be disqualified.
 
 ## Important
-- Please submit your code before **11:59 PM on November 13, 2025**, late submissions will not be accepted.
+- Please submit your code before **11:59 PM on November 14, 2025**, late submissions will not be accepted.
 - Submission must be made on [your dashboard](https://acm-poker-tournament.vercel.app/dashboard), and all of your code must be in one file.
 - Bots are called only during their own turn; they should not rely on global state or other bots' internals. Keep this in mind when coding up your bot.
 - Illegal moves will be automatically treated as folding. For example, checking when a raise is required or betting less than the required minimum.
