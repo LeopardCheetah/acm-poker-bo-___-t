@@ -1,0 +1,374 @@
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['8s', '2s']
+	held_money: [7400, 7400]
+	bet_money: [100, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000028C07ECCD70>
+memory mappings: {}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['8s', '2s']
+	held_money: [7300, 7300]
+	bet_money: [0, 0]
+	community_cards ['3c', '5d', 'qd']
+	pots: [{ "value": 400, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000016A29758AD0>
+memory mappings: {'You': -1.0}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['qc', '6s']
+	held_money: [7300, 7400]
+	bet_money: [200, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x000001FB7EECC980>
+memory mappings: {'You': -1.0}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['2s', '3d']
+	held_money: [7400, 7400]
+	bet_money: [100, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000185028ACD70>
+memory mappings: {}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['2s', '3d']
+	held_money: [7300, 7300]
+	bet_money: [0, 0]
+	community_cards ['4c', 'qh', '5c']
+	pots: [{ "value": 400, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000029F98108AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['3s', 'tc']
+	held_money: [7200, 7650]
+	bet_money: [100, 50]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000278FAC18AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['ts', '5d']
+	held_money: [7200, 7550]
+	bet_money: [100, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000246F6FF8AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['2c', '4c']
+	held_money: [7400, 7400]
+	bet_money: [100, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000020DF877CD70>
+memory mappings: {}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['2c', '4c']
+	held_money: [7400, 7400]
+	bet_money: [0, 0]
+	community_cards ['7c', '8h', '4s']
+	pots: [{ "value": 200, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x000001DE3AC48AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['2c', '4c']
+	held_money: [7200, 7300]
+	bet_money: [200, 100]
+	community_cards ['7c', '8h', '4s']
+	pots: [{ "value": 200, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000259AC878AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['9c', 'jc']
+	held_money: [7500, 7250]
+	bet_money: [100, 50]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x000001E3280E8AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['9c', 'jc']
+	held_money: [7400, 7200]
+	bet_money: [200, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000021DF45A8AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['9c', 'jc']
+	held_money: [7400, 7100]
+	bet_money: [0, 0]
+	community_cards ['7h', 'td', '9s']
+	pots: [{ "value": 400, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000211CD3C8AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['9c', 'jc']
+	held_money: [7400, 7100]
+	bet_money: [0, 0]
+	community_cards ['7h', 'td', '9s', 'kc']
+	pots: [{ "value": 400, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x00000178C0388AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 1
+	players: ['You', 'Bot']
+	player_cards: ['9c', 'jc']
+	held_money: [7400, 7100]
+	bet_money: [0, 0]
+	community_cards ['7h', 'td', '9s', 'kc', 'kh']
+	pots: [{ "value": 400, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000020FBD698AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['3s', '3d']
+	held_money: [150, 7400]
+	bet_money: [7250, 100]
+	community_cards []
+	pots: [{ "value": 0, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x000001AC06D38AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+
+***************************
+current gamestate:
+{
+	index_to_action: 1
+	index_of_small_blind: 0
+	players: ['You', 'Bot']
+	player_cards: ['3s', '3d']
+	held_money: [0, 250]
+	bet_money: [150, 0]
+	community_cards ['tc', 'qc', 'ts']
+	pots: [{ "value": 14500, "players": ['You', 'Bot']}]
+	small_blind: 50
+	big_blind: 100
+}
+
+memory type: <class 'bot.Memory'>
+memory: <bot.Memory object at 0x0000018650838AD0>
+memory mappings: {'You': -0.5}
+all stats in memory: []
+
+===========================
+

@@ -82,7 +82,8 @@ def display_game_state(game: PokerGame, player_idx: int):
     # Always show bot cards
     if game.players_cards[bot_idx]:
         cards_str = " ".join([format_card(c) for c in game.players_cards[bot_idx]])
-        print(f"   Cards: {cards_str}")
+        # print(f"   Cards: {cards_str}")
+        print(f"    cards: [?] [?]")
     
     if bot_bet > 0:
         print(f"   Current Bet: {Colors.YELLOW}{bot_bet}{Colors.ENDC}")
