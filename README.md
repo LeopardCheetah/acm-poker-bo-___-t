@@ -1,6 +1,6 @@
-# -__-
+# -___-
 
-`-__-` is the name of my poker bot. It was programmed in ~3 days without generative AI usage :). It ended up taking first place in UCSB's poker bot tournament by reaching the final table of 3 bots as the chip leader (it ended with a stack of effectively 3bb (3 big blinds); the other 2 bots at the table had 0.25bb and 0.5bb).
+`-___-` is the name of my poker bot. It was programmed in ~3 days without generative AI usage :). It ended up taking first place in UCSB's poker bot tournament by reaching the final table of 3 bots as the chip leader (it ended with a stack of effectively 4bb (bb = big blind); the other 2 bots at the table had 0.25bb and 1bb).
 
 
 All of my custom code is in `bot.py`.
